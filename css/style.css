@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: #311b92 ;
+}
+header h1{
+    color: #fafafa;
+    text-align: center;
+    padding: 10px;
+}
+.login{
+    width: 500px;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    x
+}
+.login input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+.login input[type="text"],.login input[type="password"]{
+  border: none;
+  border-bottom: 4px solid #ccc;
+}
+.login input[type="submit"]{
+    
+    background-color: #311b92 ;
+    color: #fafafa;
+    width: 200px;
+    margin: 20px auto;
+    transition: all 0.5s;
+}
+.login input[type="submit"]:hover{
+    background-color: #5e35b1;
+    transition: all 0.5s;
+    border-radius: 30px;
+    cursor: pointer;
+}
+::placeholder{
+    text-align: center;
+}
